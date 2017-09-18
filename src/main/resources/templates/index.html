@@ -1,2 +1,12 @@
-<p>Yunas Sample</p>
-<p>{{ message }}</p>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head><meta charset=utf-8>
+    <title>Yunas Framework - a tiny kotlin web framework</title>
+</head>
+<body>
+<p>Yunas</p>
+<p th:text="${message}"></p>
+</body>
+</html>
