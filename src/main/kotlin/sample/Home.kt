@@ -1,7 +1,7 @@
 package sample
 
-import org.yunas.Context
-import org.yunas.ModelAndView
+import yunas.Context
+import yunas.ModelAndView
 
 val homeIndex = fun(context: Context) : ModelAndView {
 

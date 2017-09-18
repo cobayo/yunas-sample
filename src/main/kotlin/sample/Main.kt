@@ -1,6 +1,8 @@
 package sample
 
-import org.yunas.Yunas
+import yunas.Context
+import yunas.Yunas
+
 
 // Entry point
 fun main(args: Array<String>) {
