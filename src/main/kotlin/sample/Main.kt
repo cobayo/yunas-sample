@@ -9,6 +9,6 @@ fun main(args: Array<String>) {
     Yunas.get("/", homeIndex)
 
     // RestFul API (Return JSON)
-    Yunas.Rest.get("/api", tests)
+    Yunas.Rest.get("/api", apiTest)
 
 }
