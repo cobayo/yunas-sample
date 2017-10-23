@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if [ ! -e "./src" ]; then
+
+    echo "Execute at Project Root"
+    exit 1
+fi
+
+if [ ! -e "./webpack/node_modules/webpack" ]; then
+   cd ./webpack && npm install
+fi
+
+
+cd ./webpack && ./node_modules/.bin/webpack
+
