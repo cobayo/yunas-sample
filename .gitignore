@@ -5,5 +5,4 @@ lib
 .gradle
 gradle
 gradlew*
-sample
 webpack/node_modules
