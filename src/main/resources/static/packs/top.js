@@ -287,14 +287,13 @@ module.exports = g;
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(3);
-throw new Error("Cannot find module \"./top/Top\"");
-
 
 
 new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
     el: '#app',
-    template: '<Top/>',
-    components: { Top: __WEBPACK_IMPORTED_MODULE_1__top_Top___default.a }
+    data: {
+        message: 'Hello Vue.js!'
+    }
 });
 
 /***/ }),

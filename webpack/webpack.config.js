@@ -50,7 +50,10 @@ module.exports = {
         extensions: [ '.js','.css','.png','.jpg'],
         modules: [
             resolve('node_modules')
-        ]
+        ],
+        alias: {
+            'vue$': 'vue/dist/vue.common.js'
+        }
     },
     resolveLoader: {
         modules: [ resolve('node_modules') ]
