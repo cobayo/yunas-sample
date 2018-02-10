@@ -12,7 +12,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         // Top Page (Return html with Thymeleaf)
         Yunas.get("/", context -> {
             Map<String,String> res = new HashMap<>();
@@ -20,10 +19,7 @@ public class Main {
             return modelAndView;
         });
 
-
-
     }
-
 
 }
 

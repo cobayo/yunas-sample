@@ -1,7 +1,7 @@
 /**
  * webpack.config.js
  *
- * by yosuke_kobayashi@r.recruit.co.jp
+ *
  */
 const webpack = require('webpack')
 const { basename, dirname, join, relative, resolve } = require('path')
