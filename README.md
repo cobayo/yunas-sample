@@ -14,7 +14,7 @@ gradle run
 gradle test
 ```
 
-## Create Excutable Jar
+## Create Executable Jar
 ```
 gradle fatJar
 ```
@@ -33,3 +33,17 @@ export YUNAS_ACTIVE_PROFILE=production
 java -jar xxxxxx.jar
 ```
 
+## Integration Vue.js + webpack + Yunas
+
+ES6 JS Files in src/javascript/packs/
+
+build with Webpack
+```
+sh ./bin/webpacker
+```
+-> Output files in resources/static/packs/
+
+Example
+```
+<script src="yourdomain/packs/xxxx.js></script>
+```
